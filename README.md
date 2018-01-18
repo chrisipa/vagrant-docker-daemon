@@ -3,7 +3,7 @@ Vagrant Docker Daemon
 
 # Overview
 
-Vagrant box with docker daemon accessible from the outside world. Very useful for docker image builds under a windows based operating system.
+Vagrant box with Docker daemon accessible from the outside world. Very useful for Docker image builds under a windows based operating system.
 
 # Features
 
@@ -13,6 +13,9 @@ Vagrant box with docker daemon accessible from the outside world. Very useful fo
 * Log DOCKER_HOST environment variable
 
 # Prerequisites
+
+* [Vagrant](https://www.vagrantup.com/docs/installation/) must be installed
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) must be installed
 
 # Usage
 
