@@ -33,7 +33,7 @@ Vagrant box with Docker daemon accessible from a remote host. Very useful for Do
   set DOCKER_HOST=tcp://172.28.128.2:2375
   ```  
 
-* Use [docker-maven-plugin](https://dmp.fabric8.io/) from [fabric8](https://fabric8.io/) to build your docker images:
+* Use [docker-maven-plugin](https://dmp.fabric8.io/) from [fabric8](https://fabric8.io/) to build your Docker images:
   ```bash
   mvn clean install docker:build
   ```  
