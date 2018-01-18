@@ -3,11 +3,11 @@ Vagrant Docker Daemon
 
 # Overview
 
-Vagrant box with Docker daemon accessible from the outside world. Very useful for Docker image builds under a windows based operating system.
+Vagrant box with Docker daemon accessible from the outside world. Very useful for Docker image builds under a Windows based operating system.
 
 # Features
 
-* Creation Ubuntu 14.04 base box with vagrant
+* Creation Ubuntu 14.04 base box with Vagrant
 * Install Docker daemon with additional tools
 * Open Docker daemon socket to use from a remote host
 * Log DOCKER_HOST environment variable
@@ -19,7 +19,7 @@ Vagrant box with Docker daemon accessible from the outside world. Very useful fo
 
 # Usage
 
-* Create virtual machine with vagrant:
+* Create virtual machine with Vagrant:
   ```bash
   vagrant up
   ```
